@@ -8,8 +8,8 @@ auth_token  = "49624729da90cad3306f328c000b90fe"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="+14155327285", 
-    from_="+14159653880",
+    to="+41555555555", #Your phone number 
+    from_="+4155555555", #Your twilio's number
     body="Hello from Python!")
 
 print(message.sid)
