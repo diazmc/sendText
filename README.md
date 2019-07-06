@@ -1,2 +1,2 @@
 # sendText
-Python app that sends SMS
+Python app that sends SMS using Twilio
